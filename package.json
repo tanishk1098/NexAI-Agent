@@ -1,6 +1,6 @@
 {
-  "homepage": "https://tanishk1098.github.io/NexAI-Agent-2",
-  "name": "gemini-chatbot",
+  "homepage": "https://tanishk1098.github.io/NexAI-Agent",
+  "name": "nexai-agent",
   "private": true,
   "version": "0.0.0",
   "type": "module",
