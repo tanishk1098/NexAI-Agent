@@ -1,26 +1,36 @@
-# Logs
-logs
+# Node modules
+node_modules/
+
+# Vite build output
+dist/
+dist-ssr/
+
+# Environment variables
+.env
+.env.*
+
+# Log files
+logs/
 *.log
 npm-debug.log*
+pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-.env
-node_modules
-dist
-dist-ssr
-*.local
-*.git
 
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# System files
 .DS_Store
+
+# Git local config
+*.local
+
+# IDE/editor settings (Visual Studio Code, JetBrains, etc.)
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Optional: if using GitHub Codespaces or GitHub CLI
+*.code-workspace
