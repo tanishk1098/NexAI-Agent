@@ -32,20 +32,20 @@ const Main = () => {
 
                 <div className='cards'>
 
-                    <div className='card' onClick={()=>handleCardClick("Suggest beautiful palces to see on an upcoming roaad trip")}>
-                        <p>Suggest beautiful palces to see on an upcoming roaad trip</p>
+                    <div className='card' onClick={()=>handleCardClick("Suggest beautiful places to see on an upcoming road trip")}>
+                        <p>Suggest beautiful places to see on an upcoming road trip</p>
                         <img src={assets.compass_icon} />
                     </div>
-                    <div className='card' onClick={()=>handleCardClick("Briefly summarise this concept: urban planning")}>
-                        <p>Briefly summarise this concept: urban planning</p>
+                    <div className='card' onClick={()=>handleCardClick("Best sources to prepare CS Fundamentals for placement interviews")}>
+                        <p>Best sources to prepare CS Fundamentals for placement interviews</p>
                         <img src={assets.bulb_icon} />
                     </div>
-                    <div className='card' onClick={()=>handleCardClick("Brainstorming team bonding actvities for our work retreat")}>
-                        <p>Brainstorming team bonding actvities for our work retreat</p>
+                    <div className='card' onClick={()=>handleCardClick("Top 10 trending web series")}>
+                        <p>Top 10 trending web series</p>
                         <img src={assets.message_icon} />
                     </div>
-                    <div className='card' onClick={()=>handleCardClick("Optimise the given code")}>
-                        <p>Optimise the given code</p>
+                    <div className='card' onClick={()=>handleCardClick("Give some tips to maintain a healthy work-life balance ")}>
+                        <p>Give some tips to maintain a healthy work-life balance</p>
                         <img src={assets.code_icon} />
 
                     </div>
